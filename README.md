@@ -14,7 +14,7 @@ Generiamo e stampiamo in console la lista per i segnaposto.
 <!-- workflow -->
 
 <!--
-- creo un array  ("Tavolo Vip") di oggetti con i dati forniti
+- creo un array  ("Tavolo Vip") con i dati forniti
 - faccio un console log dove per ogni ospite sia specificato 
   -- il nome del tavolo ("Tavolo Vip")
   -- il nome del ospite

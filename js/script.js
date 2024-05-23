@@ -1,57 +1,15 @@
-const tableArray = [
-    {
-        tableName :'Tavolo Vip',
-        guestName : 'brad Pitt',
-        place : '1',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Johnny Depp',
-        place : '2',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Lady Gaga',
-        place : '3',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Cristiano Ronaldo',
-        place : '4',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Georgina Rodriguez',
-        place : '5',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Chiara Ferragni',
-        place : '6',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'George Clooney',
-        place : '7',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Amal Clooney',
-        place : '8',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Fedez',
-        place : '9',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Amadeus',
-        place : '10',
-    },
-    {
-        tableName :'Tavolo Vip',
-        guestName :'Fiorello',
-        place : '11',
-    },
-];
+const vipArray = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'];
+
+let invited = [];
+
+
+vipArray.forEach((vipArray, index) => {
+    let table = {};
+    table.tableName = 'Tavolo Vip';
+    table.guestName = vipArray ;
+    table.place = index + 1;
+
+    invited.push(table);
+});
+
+console.log(invited);
