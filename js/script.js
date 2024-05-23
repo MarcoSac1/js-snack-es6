@@ -53,17 +53,8 @@ const studentArray = [
         grades : '84',
     },
 ];
+console.log(studentArray);
 
-// const NameUpper = ['GIUSEPPINA DELLA ROVERE', 'PAOLA CORTELLESSA', 'ANDREA MANTEGNA', 'GAIA BORROMINI', 'LUIGI GRIMALDELLO', 'PIERO DELLA FRANCESCA', 'FRANCESCA DA POLENTA'];
-
-
-
-// const nameUpper = studentArray.filter((element) =>{
-//     if (element.name === 'name') {
-//         nameUpper.push(element.toUpperCase())
-//         console.log(element);
-//     }
-// })
 let student70plus = studentArray.filter((element) => {
     if (element.grades > '70') {
         return true;
@@ -79,12 +70,25 @@ let id120plus = studentArray.filter((element) => {
     }
 });
 console.log(id120plus);
-const nameUpper = [];
 
-// for (let index = 0; index < studentArray.length; index++) {
-    
-//     if ( ) {
-//         nameUpper.push.toUpperCase()
-//     }
-// };
-// console.log(nameUpper);
+let nameUpper = studentArray.filter((element) => {
+    if(element.name === 'name')
+        return true;
+});
+console.log(nameUpper);
+
+
+
+
+
+// const nomi = [
+//     'giuseppina della rovere',
+//     'paola cortellessa',
+//     'andrea mantegna',
+//     'gaia borromini',
+//     'luigi grimaldello',
+//     'piero della francesca',
+//     'francesca da polenta',
+// ];
+// const upper = 'nomi'.toUpperCase();
+// console.log(upper);
