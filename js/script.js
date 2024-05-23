@@ -65,11 +65,20 @@ const studentArray = [
 //     }
 // })
 let student70plus = studentArray.filter((element) => {
-    
+    if (element.grades > '70') {
+        return true;
+        
+    }
 });
+console.log(student70plus);
 
-let id120olus = [];
-
+let id120plus = studentArray.filter((element) => {
+    if (element.grades > '70' && element.Id >= '120') {
+        return true;
+        
+    }
+});
+console.log(id120plus);
 const nameUpper = [];
 
 // for (let index = 0; index < studentArray.length; index++) {
