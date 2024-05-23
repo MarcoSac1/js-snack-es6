@@ -11,6 +11,15 @@ nome dell'ospite (guestName),
 posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 
+<!-- workflow -->
+
+<!--
+- creo un array  ("Tavolo Vip") di oggetti con i dati forniti
+- faccio un console log dove per ogni ospite sia specificato 
+  -- il nome del tavolo ("Tavolo Vip")
+  -- il nome del ospite
+  -- ed il posto occupato( numero corrispondete al posto al interno del array)  
+ -->
 SNACK 2
 
 Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...
