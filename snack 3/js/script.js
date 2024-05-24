@@ -35,12 +35,14 @@ const bike = [
 // });
 
 
-let lightBike = [];
+// const {peso} = bike;
+// console.log(peso)
 
 // console.log(lightBike);
 
 bike.forEach((element) => {
-    lightBike +=element.peso;
+    if (element.peso <= element.peso) {
+        
+    }
+    console.log(`${element.nome} - ${element.peso}`);
 });
-
-console.log(`${lightBike.nome}- ${lightBike.peso}`);
