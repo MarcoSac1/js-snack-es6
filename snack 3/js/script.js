@@ -19,7 +19,7 @@ const bike = [
     },
     {
         nome : 'belador-8', 
-        peso :'7.7KG'
+        peso :'7.7'
     },
     {
         nome : 'TCR Advanced SL 0 DA', 
@@ -40,9 +40,26 @@ const bike = [
 
 // console.log(lightBike);
 
-bike.forEach((element) => {
-    if (element.peso <= element.peso) {
+// bike.forEach((element) => {
+//     if (bike[element].peso < lightBike[element].peso) {
         
+//     }
+    
+//     console.log(`${element.nome} - ${element.peso}`);
+// });
+
+
+// console.log(bike);
+
+const {nome, peso} = bike;
+
+let lightBike = bike[0].peso; 
+
+for (let index = 0; index < bike[index]; index++) {
+    if(bike[index].peso > lightBike[index].peso){
+
     }
-    console.log(`${element.nome} - ${element.peso}`);
-});
+    
+};
+console.log(lightBike);
+
