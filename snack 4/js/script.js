@@ -37,6 +37,7 @@ squad.forEach((squad) => {
     squad.fallisubiti = Math.floor((Math.random() * 100) +1);
     
 })
+
 squad.forEach((element) => {
     const {nome, fallisubiti, puntifatti} = element;
 });
